@@ -1,0 +1,12 @@
+language: php
+php:
+- 7.3.5
+install:
+- composer install --prefer-dist --optimize-autoloader --quiet
+deploy:
+  provider: heroku
+  api_key:
+    secure: DGKsbwUm+RxWLq2PN9GhVyfSuDZ0ARHhzP6gsJGaYYGsozguF588VQ31VaGzX7UuFELnTxoypBA4oWD8+wsuWM/sCowvjHikZYJzmP8fuXLW90XkAmzp7RHVMmr1OwUk86vbeO9gMBXA+aE+yfehK3Snkl/63iJvPN/16749XLeg3wk0D/1y4+IoS5XjhGZvqJv+fg31JoYHmt4Zi+CPvGQfwF7vvdhh/RLI/G+pgHt4v28honbM+rR5m1Qv3hTTZnO4OQOdH3Xselkliy5AVJVp6Hel52LDfg1KrL9tCpi57/nJjzgi8YXMWtm88qoX2vRjcxR/vmjTOG0pLMu16Equs3JiqddBbrXT4GYZHHPBseTkVd6qZ14+TmVOBBZ+WDPM9bQyTkEajH7C1LWwvQuWGJfh2GSlxsehxdqn40zFMn9eYYarqELYtcsmXllKUji41NkJXvpKrXMM8mHx4mVTszaBjz2cXpCtlYgQfhvlvOYiZ61tMF8/7cClcmiw4o7TMu9xvxhDDbNO1YESlA1KC6FyutEghCgcKFfpBvr4cZSv4Pw15OQUn1CWtLAeaF6uaAIMh0ov8TTKCdbOD1m0Adn421cwiix+5cuxk9U++l9JX7qbXNooHsICTmTdlddBHA40OsRv4kzFUdC3R2TQrpsN8tA4wLs3Va4HS94=
+  app: bbs-willie
+  on:
+    repo: WillieWangWei/BBS
