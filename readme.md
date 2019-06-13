@@ -30,6 +30,7 @@ A BBS project developed using Laravel by **Willie**.
 * [PostgreSQL](https://www.postgresql.org/) - PostgreSQL: The world's most advanced open source database
 * [Gravatar](https://en.gravatar.com/) - Gravatar - Globally Recognized Avatars
 * [Carbon](https://github.com/briannesbitt/Carbon) - GitHub - briannesbitt/Carbon: A simple PHP API extension for DateTime.
+* [Font Awesome](https://fontawesome.com/) - Font Awesome
 
 ## License
 
