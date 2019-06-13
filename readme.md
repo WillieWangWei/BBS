@@ -31,6 +31,7 @@ A BBS project developed using Laravel by **Willie**.
 * [Gravatar](https://en.gravatar.com/) - Gravatar - Globally Recognized Avatars
 * [Carbon](https://github.com/briannesbitt/Carbon) - GitHub - briannesbitt/Carbon: A simple PHP API extension for DateTime.
 * [Font Awesome](https://fontawesome.com/) - Font Awesome
+* [whoops](https://github.com/filp/whoops) - GitHub - filp/whoops: PHP errors for cool kids
 
 ## License
 
