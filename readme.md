@@ -32,6 +32,8 @@ A BBS project developed using Laravel by **Willie**.
 * [Carbon](https://github.com/briannesbitt/Carbon) - GitHub - briannesbitt/Carbon: A simple PHP API extension for DateTime.
 * [Font Awesome](https://fontawesome.com/) - Font Awesome
 * [whoops](https://github.com/filp/whoops) - GitHub - filp/whoops: PHP errors for cool kids
+* [symfony](https://github.com/symfony/symfony/tree/3.0) - GitHub - symfony/symfony at 3.0
+* [image](https://github.com/Intervention/image) - GitHub - Intervention/image: PHP Image Manipulation
 
 ## License
 

@@ -8,13 +8,13 @@
 
         <div class="col-lg-3 col-md-3 hidden-sm hidden-xs user-info">
             <div class="card">
-                <img src="https://avatars2.githubusercontent.com/u/25432264?s=460&v=4" class="card-img-top" alt="{{ $user->name }}">
+                <img src="{{ $user->avatar }}" class="card-img-top" alt="{{ $user->name }}">
                 <div class="card-body">
                     <h5><strong>个人简介</strong></h5>
-                    <p>上马不喊话，三开战猎萨。</p>
+                    <p>{{ $user->introduction }}</p>
                     <hr>
                     <h5><strong>注册于</strong></h5>
-                    <p>时间</p>
+                    <p>{{ $user->created_at->diffForHumans() }}</p>
                 </div>
             </div>
         </div>
