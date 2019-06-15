@@ -46,3 +46,5 @@ Route::post('password/reset',         'Auth\ResetPasswordController@reset')     
  * PATCH   /users/{user}      UsersController@update 处理 edit 页面提交的更改
  */
 Route::resource('users', 'UsersController', ['only' => ['show', 'update', 'edit']]);
+
+Route::resource('topics', 'TopicsController', ['only' => ['index', 'show', 'create', 'store', 'update', 'edit', 'destroy']]);
