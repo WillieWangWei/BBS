@@ -43,9 +43,10 @@ class UsersTableSeeder extends Seeder
 
         // 单独处理第一个用户的数据
         $user = User::find(1);
-        $user->name   = 'Willie';
-        $user->email  = 'willie.wangwei@gmail.com';
-        $user->avatar = 'https://avatars2.githubusercontent.com/u/25432264?s=460&v=4';
+        $user->name     = 'Willie';
+        $user->email    = 'willie.wangwei@gmail.com';
+        $user->avatar   = 'https://avatars2.githubusercontent.com/u/25432264?s=460&v=4';
+        $user->password = bcrypt('.yPK8pnUyDa9UKBXnYauT7T9cNc*hQBmFn8DGCQo8kXgRTc.ARKH8xaiD36RkVHV');
         $user->save();
     }
 }
