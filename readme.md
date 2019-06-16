@@ -38,6 +38,7 @@ A BBS project developed using Laravel by **Willie**.
 * [laravel-ide-helper](https://github.com/barryvdh/laravel-ide-helper) - GitHub - barryvdh/laravel-ide-helper: Laravel IDE Helper
 * [dbal](https://github.com/doctrine/dbal) - GitHub - doctrine/dbal: Doctrine Database Abstraction Layer
 * [Simditor](https://simditor.tower.im/) - Simditor
+* [Purifier](https://github.com/mewebstudio/Purifier) - GitHub - mewebstudio/Purifier: HTMLPurifier for Laravel 5
 
 ## License
 
