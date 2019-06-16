@@ -15,30 +15,32 @@ A BBS project developed using Laravel by **Willie**.
 
 ## Built With
 
-* [PHP](https://php.net/) - PHP: Hypertext Preprocessor
-* [Laravel](https://laravel.com/) - The PHP Framework For Web Artisans
-* [Homestead](https://github.com/laravel/homestead) - GitHub - laravel/homestead
-* [VirtualBox](https://www.virtualbox.org/) - Oracle VM VirtualBox
-* [Vagrant](https://www.vagrantup.com/) - Vagrant by HashiCorp
-* [Composer](https://getcomposer.org/) - Composer
-* [Heroku](https://heroku.com/) - Cloud Application Platform | Heroku
-* [Bootstrap](https://getbootstrap.com/) - Bootstrap · The most popular HTML, CSS, and JS library in the world
-* [npm](https://www.npmjs.com/) - npm | build amazing things
 * [Yarn](https://yarnpkg.com/) - Yarn
-* [Sass](https://sass-lang.com/) - Sass: Syntactically Awesome Style Sheets
 * [MySQL](https://www.mysql.com/) - MySQL
-* [PostgreSQL](https://www.postgresql.org/) - PostgreSQL: The world's most advanced open source database
-* [Gravatar](https://en.gravatar.com/) - Gravatar - Globally Recognized Avatars
-* [Carbon](https://github.com/briannesbitt/Carbon) - GitHub - briannesbitt/Carbon: A simple PHP API extension for DateTime.
-* [Font Awesome](https://fontawesome.com/) - Font Awesome
-* [whoops](https://github.com/filp/whoops) - GitHub - filp/whoops: PHP errors for cool kids
-* [symfony](https://github.com/symfony/symfony/tree/3.0) - GitHub - symfony/symfony at 3.0
-* [image](https://github.com/Intervention/image) - GitHub - Intervention/image: PHP Image Manipulation
-* [active](https://github.com/letrunghieu/active) - GitHub - letrunghieu/active: The helper class for Laravel 4/5 applications to get active class base on current route
-* [laravel-ide-helper](https://github.com/barryvdh/laravel-ide-helper) - GitHub - barryvdh/laravel-ide-helper: Laravel IDE Helper
-* [dbal](https://github.com/doctrine/dbal) - GitHub - doctrine/dbal: Doctrine Database Abstraction Layer
 * [Simditor](https://simditor.tower.im/) - Simditor
+* [Composer](https://getcomposer.org/) - Composer
+* [Vagrant](https://www.vagrantup.com/) - Vagrant by HashiCorp
+* [Font Awesome](https://fontawesome.com/) - Font Awesome
+* [npm](https://www.npmjs.com/) - npm | build amazing things
+* [VirtualBox](https://www.virtualbox.org/) - Oracle VM VirtualBox
+* [PHP](https://php.net/) - PHP: Hypertext Preprocessor
+* [Homestead](https://github.com/laravel/homestead) - GitHub - laravel/homestead
+* [whoops!](http://filp.github.io/whoops/) - whoops! - php errors for cool kids
+* [Heroku](https://heroku.com/) - Cloud Application Platform | Heroku
+* [Laravel](https://laravel.com/) - The PHP Framework For Web Artisans
+* [Sass](https://sass-lang.com/) - Sass: Syntactically Awesome Style Sheets
+* [Gravatar](https://en.gravatar.com/) - Gravatar - Globally Recognized Avatars
+* [Intervention Image](http://image.intervention.io/) - Intervention Image - Introduction
+* [Laravel Active Archives](https://www.hieule.info/tag/laravel-active) - Laravel Active Archives - Hieu Le
+* [Guzzle](http://guzzlephp.org/) - Guzzle, PHP HTTP client — Guzzle Documentation
+* [Carbon](https://carbon.nesbot.com/) - Carbon - A simple PHP API extension for DateTime
 * [Purifier](https://github.com/mewebstudio/Purifier) - GitHub - mewebstudio/Purifier: HTMLPurifier for Laravel 5
+* [pinyin](https://github.com/overtrue/pinyin) - GitHub - overtrue/pinyin: 基于词库的中文转拼音优质解决方案
+* [laravel-ide-helper](https://github.com/barryvdh/laravel-ide-helper) - GitHub - barryvdh/laravel-ide-helper: Laravel IDE Helper
+* [Doctrine](https://www.doctrine-project.org/projects/dbal.html) - Database Abstraction Layer - Doctrine: PHP Open Source Project
+* [PostgreSQL](https://www.postgresql.org/) - PostgreSQL: The world's most advanced open source database
+* [Symfony](https://symfony.com/) - Symfony, High Performance PHP Framework for Web Development
+* [Bootstrap](https://getbootstrap.com/) - Bootstrap · The most popular HTML, CSS, and JS library in the world
 
 ## License
 
