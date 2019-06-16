@@ -37,6 +37,7 @@ A BBS project developed using Laravel by **Willie**.
 * [active](https://github.com/letrunghieu/active) - GitHub - letrunghieu/active: The helper class for Laravel 4/5 applications to get active class base on current route
 * [laravel-ide-helper](https://github.com/barryvdh/laravel-ide-helper) - GitHub - barryvdh/laravel-ide-helper: Laravel IDE Helper
 * [dbal](https://github.com/doctrine/dbal) - GitHub - doctrine/dbal: Doctrine Database Abstraction Layer
+* [Simditor](https://simditor.tower.im/) - Simditor
 
 ## License
 
