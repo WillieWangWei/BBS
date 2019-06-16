@@ -11,6 +11,7 @@ npm-debug.log
 yarn-error.log
 workspace.xml
 public/uploads/images/avatars
+public/uploads/images/topics
 .idea
 _ide_helper.php
 _ide_helper_models.php
