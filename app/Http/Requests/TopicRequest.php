@@ -10,32 +10,31 @@ class TopicRequest extends Request
         {
             // CREATE
             case 'POST':
-            {
-                return [
-                    // CREATE ROLES
-                ];
-            }
+
             // UPDATE
             case 'PUT':
             case 'PATCH':
-            {
-                return [
-                    // UPDATE ROLES
-                ];
-            }
+                {
+                    return [
+                        'body'        => 'required|min:3',
+                        'title'       => 'required|min:2',
+                        'category_id' => 'required|numeric',
+                    ];
+                }
             case 'GET':
             case 'DELETE':
             default:
-            {
-                return [];
-            };
+                {
+                    return [];
+                }
         }
     }
 
     public function messages()
     {
         return [
-            // Validation messages
+            'title.min' => '标题必须至少两个字符',
+            'body.min'  => '文章内容必须至少三个字符',
         ];
     }
 }
