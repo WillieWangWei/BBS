@@ -41,6 +41,7 @@ A BBS project developed using Laravel by **Willie**.
 * [PostgreSQL](https://www.postgresql.org/) - PostgreSQL: The world's most advanced open source database
 * [Symfony](https://symfony.com/) - Symfony, High Performance PHP Framework for Web Development
 * [Bootstrap](https://getbootstrap.com/) - Bootstrap · The most popular HTML, CSS, and JS library in the world
+* [Predis](https://github.com/nrk/predis) - GitHub - nrk/predis: Flexible and feature-complete Redis client for PHP and HHVM
 
 ## License
 
