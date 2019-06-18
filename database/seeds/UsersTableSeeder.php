@@ -48,5 +48,12 @@ class UsersTableSeeder extends Seeder
         $user->avatar   = 'https://avatars2.githubusercontent.com/u/25432264?s=460&v=4';
         $user->password = bcrypt('.yPK8pnUyDa9UKBXnYauT7T9cNc*hQBmFn8DGCQo8kXgRTc.ARKH8xaiD36RkVHV');
         $user->save();
+
+        // 初始化用户角色，将 1 号用户指派为『站长』
+        $user->assignRole('Founder');
+
+        // 将 2 号用户指派为『管理员』
+        $user = User::find(2);
+        $user->assignRole('Maintainer');
     }
 }
