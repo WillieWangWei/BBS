@@ -13,7 +13,7 @@
 
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', 'PagesController@root')->name('root');
+Route::get('/', 'TopicsController@index')->name('root');
 
 // 用户注册相关路由
 Route::get ('register', 'Auth\RegisterController@showRegistrationForm')->name('register');
