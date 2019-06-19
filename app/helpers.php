@@ -53,3 +53,26 @@ function model_plural_name($model)
     // 获取子串的复数形式，例如：传参 `user` 会得到 `users`
     return Str::plural($snake_case_name);
 }
+
+function get_db_config()
+{
+    if (getenv('IS_IN_HEROKU')) {
+        $url = parse_url(getenv("DATABASE_URL"));
+
+        return $db_config = [
+            'connection' => 'pgsql',
+            'host'       => $url["host"],
+            'username'   => $url["user"],
+            'password'   => $url["pass"],
+            'database'   => substr($url["path"], 1),
+        ];
+    } else {
+        return $db_config = [
+            'password'   => env('DB_PASSWORD', ''),
+            'host'       => env('DB_HOST', 'localhost'),
+            'database'   => env('DB_DATABASE', 'forge'),
+            'username'   => env('DB_USERNAME', 'forge'),
+            'connection' => env('DB_CONNECTION', 'mysql'),
+        ];
+    }
+}
