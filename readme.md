@@ -1,5 +1,6 @@
 ![](https://repository-images.githubusercontent.com/191184100/9b36db00-8bd1-11e9-896c-decdfb5c879e)
 
+<p align="center">
   <a href="https://github.com/WillieWangWei"><img src="https://img.shields.io/travis/php-v/WillieWangWei/weibo.svg"></a>
   <a href="https://travis-ci.com/WillieWangWei/Weibo"><img src="https://img.shields.io/travis/com/WillieWangWei/BBS.svg"></a>
   <a href="https://github.com/WillieWangWei"><img src="https://img.shields.io/github/repo-size/WillieWangWei/BBS.svg"></a>
