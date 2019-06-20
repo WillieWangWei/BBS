@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="https://github.com/WillieWangWei"><img src="https://img.shields.io/travis/php-v/WillieWangWei/weibo.svg"></a>
-  <a href="https://travis-ci.com/WillieWangWei/Weibo"><img src="https://img.shields.io/travis/com/WillieWangWei/BBS.svg"></a>
+  <a href="https://travis-ci.com/WillieWangWei/BBS"><img src="https://img.shields.io/travis/com/WillieWangWei/BBS.svg"></a>
   <a href="https://github.com/WillieWangWei"><img src="https://img.shields.io/github/repo-size/WillieWangWei/BBS.svg"></a>
   <a href="https://github.com/WillieWangWei/BBS/blob/master/LICENSE"><img src="https://img.shields.io/github/license/WillieWangWei/bbs.svg"></a>
 </p>

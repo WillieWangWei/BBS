@@ -66,7 +66,7 @@ class ImageUploadHandler
             $aws_path = $folder_name . '/' . $filename;
             $this->uploadToAWS($upload_path . '/' . $filename, $aws_path);
             return [
-                'path' => $aws_path,
+                'path' => getenv('AWS_URL') . '/' . "$aws_path",
             ];
         }
     }
@@ -90,14 +90,14 @@ class ImageUploadHandler
         $image->save();
     }
 
-    public function uploadToAWS($file_path, $upload_path)
+    public function uploadToAWS($file_path, $aws_path)
     {
         try {
             $this->s3->putObject([
-                'Key'    => $upload_path,
+                'Key'    => $aws_path,
                 'ACL'    => 'public-read',
                 'Body'   => fopen($file_path, 'r'),
-                'Bucket' => getenv('AWS_Bucket'),
+                'Bucket' => getenv('AWS_BUCKET'),
             ]);
         } catch (Aws\S3\Exception\S3Exception $e) {
             echo "There was an error uploading the file.\n";
