@@ -2,14 +2,29 @@
 
 namespace App\Handlers;
 
-
 use Illuminate\Support\Str;
 use Intervention\Image\Facades\Image;
+
+// Require the Composer autoloader.
+require '../vendor/autoload.php';
+
+use Aws\S3\S3Client;
 
 class ImageUploadHandler
 {
     // 只允许以下后缀名的图片文件上传
     protected $allowed_ext = ["png", "jpg", "gif", 'jpeg'];
+
+    protected $s3;
+
+    public function __construct()
+    {
+        // Instantiate an Amazon S3 client.
+        $this->s3 = new S3Client([
+            'version' => 'latest',
+            'region'  => 'ap-northeast-1'
+        ]);
+    }
 
     public function save($file, $folder, $file_prefix, $max_width = false)
     {
@@ -43,6 +58,8 @@ class ImageUploadHandler
             $this->reduceSize($upload_path . '/' . $filename, $max_width);
         }
 
+        $this->uploadToAWS($upload_path . '/' . $filename, $folder_name . '/' . $filename);
+
         return [
             'path' => config('app.url') . "/$folder_name/$filename"
         ];
@@ -65,5 +82,19 @@ class ImageUploadHandler
 
         // 对图片修改后进行保存
         $image->save();
+    }
+
+    public function uploadToAWS($file_path, $upload_path)
+    {
+        try {
+            $this->s3->putObject([
+                'Key'    => $upload_path,
+                'ACL'    => 'public-read',
+                'Body'   => fopen($file_path, 'r'),
+                'Bucket' => getenv('AWS_Bucket'),
+            ]);
+        } catch (Aws\S3\Exception\S3Exception $e) {
+            echo "There was an error uploading the file.\n";
+        }
     }
 }
