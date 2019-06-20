@@ -36,6 +36,7 @@ A BBS project developed using Laravel by **Willie**.
 * [Carbon](https://carbon.nesbot.com/) - Carbon - A simple PHP API extension for DateTime
 * [Purifier](https://github.com/mewebstudio/Purifier) - GitHub - mewebstudio/Purifier: HTMLPurifier for Laravel 5
 * [pinyin](https://github.com/overtrue/pinyin) - GitHub - overtrue/pinyin: 基于词库的中文转拼音优质解决方案
+* [AWS](https://aws.amazon.com) - AWS 云服务-专业的大数据和云计算服务以及云解决方案提供商
 * [laravel-ide-helper](https://github.com/barryvdh/laravel-ide-helper) - GitHub - barryvdh/laravel-ide-helper: Laravel IDE Helper
 * [Doctrine](https://www.doctrine-project.org/projects/dbal.html) - Database Abstraction Layer - Doctrine: PHP Open Source Project
 * [PostgreSQL](https://www.postgresql.org/) - PostgreSQL: The world's most advanced open source database
