@@ -58,11 +58,17 @@ class ImageUploadHandler
             $this->reduceSize($upload_path . '/' . $filename, $max_width);
         }
 
-        $this->uploadToAWS($upload_path . '/' . $filename, $folder_name . '/' . $filename);
-
-        return [
-            'path' => config('app.url') . "/$folder_name/$filename"
-        ];
+        if (App()->isLocal()) {
+            return [
+                'path' => config('app.url') . "/$folder_name/$filename",
+            ];
+        } else {
+            $aws_path = $folder_name . '/' . $filename;
+            $this->uploadToAWS($upload_path . '/' . $filename, $aws_path);
+            return [
+                'path' => $aws_path,
+            ];
+        }
     }
 
     public function reduceSize($file_path, $max_width)
