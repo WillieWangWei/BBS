@@ -5,7 +5,6 @@ namespace App\Handlers;
 use Illuminate\Support\Str;
 use Intervention\Image\Facades\Image;
 
-// Require the Composer autoloader.
 require '../vendor/autoload.php';
 
 use Aws\S3\S3Client;
